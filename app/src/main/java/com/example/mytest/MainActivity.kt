@@ -2,6 +2,9 @@ package com.example.mytest
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.mytest.Algorithm.HeapSort
+import com.example.mytest.Kotlin.Ex_Collection
+import com.example.mytest.Kotlin.Ex_Extended
 import com.example.mytest.Kotlin.Ex_Interface
 import kotlinx.android.synthetic.main.activity_main.*
 import com.example.mytest.RxJava.Rx_Zip
@@ -17,7 +20,8 @@ class MainActivity : AppCompatActivity() {
             btn.text = "//"
         }
 
+       // Ex_Interface().NullInfo3()
+        Ex_Extended()
 
-        Ex_Interface().NullInfo()
     }
 }

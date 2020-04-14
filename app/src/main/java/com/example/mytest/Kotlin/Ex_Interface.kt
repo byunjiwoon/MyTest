@@ -14,6 +14,28 @@ class Ex_Interface(){
         println("str2 : " + str)
     }
 
+    fun NullInfo2(){
+
+        var str : String? = null
+
+        var upperCase = str?.toUpperCase()
+
+        System.out.println("byun : " + upperCase)
+
+
+    }
+
+    fun NullInfo3(){
+
+        val str : String? = "  "
+
+        var upperCase = str?.toUpperCase() ?:" 초기화 필요"
+
+        System.out.println("byun : " + upperCase)
+
+
+    }
+
     open class A{
 
     }
