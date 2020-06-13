@@ -5,6 +5,8 @@ class Practice(var name : String){
     var a ="33"
     var b = "44"
 
+    //주석추가
+
     init {
 
     }
