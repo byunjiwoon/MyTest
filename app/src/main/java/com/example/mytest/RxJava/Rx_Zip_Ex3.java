@@ -19,6 +19,7 @@ public class Rx_Zip_Ex3 {
                     StringBuilder sb = new StringBuilder();
                     sb.append(val.first).append(val.second);
                     Log.d("byun",sb.toString());
+                    //주석추가1
 
 
         });
