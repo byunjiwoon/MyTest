@@ -18,9 +18,7 @@ public class Rx_Zip_Ex3 {
                 )).subscribe(val ->{
                     StringBuilder sb = new StringBuilder();
                     sb.append(val.first).append(val.second);
-
-
-                    
+                    Log.d("byun",sb.toString());
 
 
         });
