@@ -16,8 +16,8 @@ class HeapSort {
     }
 
     
-    fun heap(){ //히피파이
-        for(i in 1..data.size-1){
+    fun heap(){ 
+       for(i in 1..data.size-1){
             var child = i
             while(child>0){
                 var parent = (child-1)/2
