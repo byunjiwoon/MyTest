@@ -15,6 +15,7 @@ class HeapSort {
 
     }
 
+    
     fun heap(){ //히피파이
         for(i in 1..data.size-1){
             var child = i
