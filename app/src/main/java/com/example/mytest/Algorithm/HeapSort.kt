@@ -5,7 +5,7 @@ class HeapSort {
     var data : Array<Int>
 
     init {
-        data = arrayOf(5,2,7,3,6,1,4)
+        data = arrayOf(5,2,7,3,6,4,1)
         System.out.println("byun" + data.toString())
 
 
